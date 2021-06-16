@@ -116,10 +116,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. In the global scope this = console object.
+    2. Implicit binding = the object before the dot is "this".
+    3. New binding = this refers to an instance of the object.
+    4. Explicit binding = can use call and apply for new functions.
   */
   
   
